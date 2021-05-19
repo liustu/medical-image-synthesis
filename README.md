@@ -4,7 +4,7 @@ Code for JBHI 2021 "Multi-Modality MR Image Synthesis via Confidence-Guided Aggr
 
 Usage
 
-    The original implementation of CACR-Net is Pytorch. The code has been tested in Mac and Linux.
+    The original implementation of CACR-Net is Pytorch. The code has been tested in Linux.
 
     To run the code, you should first install dependencies:
 
@@ -17,5 +17,6 @@ Usage
     Train
 
     CUDA_VISIBLE_DEVICES=0,1 python main.py train --batch_size=8 --task_id=2 --gpu_id=[0,1]
+The code of the CACR-Net is based on the Hi-Net [https://ieeexplore.ieee.org/abstract/document/9004544].
 
     
